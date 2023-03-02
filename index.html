@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- (Part 2: CSS, Question 0) Font import here. If you don't know what this is yet, don't worry, we cover this in the Part 2 of the homework.-->
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id=container>
+        <!-- Question 0. Add an image here (a picture of you!) Make sure it's a square. -->
+        <img src="1609908057063.jpeg" class="center">
+        <h1>Aaron Chow</h1>
+        <!-- Question 1. Add headings to each of these sections! Make this heading smaller than your name.-->
+        <section id="education">
+            <h2>Education</h2>
+            <!-- Question 2. Fill this in with details about your degree, major(s), and coursework. Use at least 1 header tag (h3, b, or em). -->
+            <h3>University of California, Berkeley</h3>
+            <h3>B.A. in Data Science</h3>
+            <b>Coursework: Data 100, CS 182, Data 144, Info 159</b>
+        </section>
+        
+        <section id="experience">
+            <h2>Experience</h2>
+            <!-- Question 3a. Create 2 to 3 divs with the same class (experience-list-item), and fill them in with your work experiences. -->
+            <div class="experience-wrapper">
+                <div class="experience-list-item">
+                    <h3>Cisco Systems, Inc.</h3>
+                    <ul>
+                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
+                        <li>Deployed model predicting technical service contracts</li>
+                        <li>Created framwork for visualizing machine learning outputs </li>
+                    </ul>
+                </div>
+                <div class="experience-list-item">
+                    <h3>Sikka.ai</h3>
+                    <ul>
+                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
+                        <li>Created LSTM model to predict next procedure for dental patients</li>
+                        <li>Performed unsupervied classification by clustering word embeddings of veterinary products</li>
+                    </ul>
+                </div>
+                <div class="experience-list-item">
+                    <h3>Quantum Risk Analytics</h3>
+                    <ul>
+                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
+                        <li>Created custom dataset of headshots by randomly overlaying masks </li>
+                        <li>Utilized transfer learning and ResNet-50 to classify headshots as smiling or neutral facial expression</li>
+                    </ul>
+                </div>
+            <!-- Question 3c. Create a div that contains all the experience-list-item divs named "experience-wrapper"! You'll need this later. -->
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <!-- Question 4a. Create a few project-list-items divs. Fill these in with your favorite projects! -->
+            <div class="project-wrapper">
+                <div class="project-list-item">
+                    <h3>CV for Nutrition</h3>
+                    <p>Utilized transfer learning from ResNet-50 to classify images of foods into 101 predefined food classes</p>
+                </div>
+                <div class="project-list-item">
+                    <h3>Separting Financial Fact From Opinion</h3>
+                    <p>Fine-tuned FinBert model for custom tagged setencnes from financial reports</p>
+                </div>
+                <div class="project-list-item">
+                    <h3>Financial News Classifier</h3>
+                    <p>Used TF-IDF and neural networks to classifiy financial news scraped from Finviz.com</p>
+                </div>
+            <!-- Question 4b. Create a div that contains all the projects-list-item divs named "project-wrapper". You'll need this later! -->
+            </div>
+        </section>
+        <section id="contact">
+            <!-- Question 5. Add a link to your favorite social media account to the text "here". -->
+            <p>You can contact me <a href="https://www.linkedin.com/in/aaron-chow/">here</a>!</p>
+            
+        </section>
+    </div>
+</body>
+</html>
